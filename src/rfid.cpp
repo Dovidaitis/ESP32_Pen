@@ -16,7 +16,7 @@ void start_rfid(){
   rfid.PCD_Init();
 }
 
-String scan_rfid(){
+String scan_rfid(boolean &update_display){
  
   // Look for new cards
   if ( ! rfid.PICC_IsNewCardPresent()){
@@ -34,5 +34,6 @@ String scan_rfid(){
      uid.concat(String(rfid.uid.uidByte[i] < 0x10 ? "0" : ""));
      uid.concat(String(rfid.uid.uidByte[i], HEX));
   }
+  update_display  = true;
   return uid;
 }

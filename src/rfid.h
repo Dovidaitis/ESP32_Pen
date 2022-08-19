@@ -6,4 +6,4 @@
 
 
 void start_rfid();
-String scan_rfid();
+String scan_rfid(boolean &update_display);
