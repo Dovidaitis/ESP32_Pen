@@ -1,8 +1,9 @@
 
+<h1 align="center">
+  TFT_eSPI setup
+</h1>
 
-### TFT_eSPI setup
-
-Uncomment / change these lines at ```.pio/libdeps/esp32-devkitlipo/TFT_eSPI/User_Setup.h
+Uncomment / change these lines at ```.pio/libdeps/esp32-devkitlipo/TFT_eSPI/User_Setup.h```
 
 ```
 12 #define USER_SETUP_INFO "User_Setup"
@@ -27,7 +28,15 @@ Uncomment / change these lines at ```.pio/libdeps/esp32-devkitlipo/TFT_eSPI/User
 
 ```
 
-### ESP32 Pinout
+<h1 align="center">
+  <br>
+    ESP32 Pinout
+  </br>
+  <br>
+    <img src="readme_src/ESP32-Pinout.jpg" align="center">
+  </br>
+</h1>
+
 ```
 Pinout for RFID RC522 
 3V3 - 3.3V/VCC
