@@ -54,6 +54,6 @@ D18 - SCK  (3)
 D23 - SDA  (4)  
 D4  - RES  (5)  
 D2  - RS   (6)  
-D15 - CS   (6)  
+D15 - CS   (7)  
 3V3 - LEDA (8) 
 ```
