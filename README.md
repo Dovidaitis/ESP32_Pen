@@ -1,6 +1,12 @@
+<div align="center">
+  <h1>EPS32 based tool for RFID tags</h1> 
+  <img src="readme_src/front.png" width=400>
+</div>
+
+---
 
 <h1 align="center">
-  TFT_eSPI setup
+  TFT_eSPI library setup
 </h1>
 
 Uncomment / change these lines at ```.pio/libdeps/esp32-devkitlipo/TFT_eSPI/User_Setup.h```
@@ -55,5 +61,11 @@ D23 - SDA  (4)
 D4  - RES  (5)  
 D2  - RS   (6)  
 D15 - CS   (7)  
-3V3 - LEDA (8) 
+3V3 - LEDA (8)
+
+Pinout for buttons (one button pin to GND the other one to specified ESP32 pin)
+D28 - Button-1
+D25 - Button-2
+D33 - Button-3
+D32 - Button-4
 ```
